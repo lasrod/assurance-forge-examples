@@ -36,7 +36,7 @@ before the next test:
 
 ```bash
 git -C examples restore .
-git -C examples clean -fd
+git -C examples clean -fdX -- projects/
 ```
 
 ## Contribution rules
