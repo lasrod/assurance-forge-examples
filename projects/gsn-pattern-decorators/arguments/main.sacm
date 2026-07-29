@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sacm:AssuranceCasePackage xmlns:sacm="http://www.omg.org/spec/SACM/20220301" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0" xmi:id="PATTERN_CASE">
+  <name content="GSN Pattern Decorators" />
+  <argumentPackage xmi:id="AP_PATTERN">
+    <name content="Pattern Decorator Examples" />
+    <argumentElement xsi:type="sacm:Claim" xmi:id="G1" isAbstract="true">
+      <name content="Uninstantiated Goal" />
+      <description xmi:id="generated_1">
+        <content>
+          <value content="{System} is acceptably safe." />
+        </content>
+      </description>
+    </argumentElement>
+    <argumentElement xsi:type="sacm:Claim" xmi:id="G2" isAbstract="true" assertionDeclaration="needsSupport">
+      <name content="Undeveloped Pattern Goal" />
+      <description xmi:id="generated_2">
+        <content>
+          <value content="{Subsystem} risk is acceptably controlled." />
+        </content>
+      </description>
+    </argumentElement>
+  </argumentPackage>
+</sacm:AssuranceCasePackage>

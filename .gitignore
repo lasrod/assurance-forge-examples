@@ -1,0 +1,14 @@
+# Assurance Forge runtime and user-local state
+**/.af/
+**/.af-session.json
+
+# Generated or transient project output
+**/exports/
+**/*.bak
+**/*.tmp
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
