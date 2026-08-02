@@ -1,0 +1,5 @@
+*.gitignore text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.proj text eol=lf
+*.sacm text eol=lf
