@@ -17,7 +17,12 @@ In Assurance Forge, select **File → Open Project** and open:
 projects/kitchen-blender/af.proj
 ```
 
-The SACM library accepts this long-lived demo project in tolerant mode. It
-intentionally retains compatibility content accumulated while the application
-and its SACM mapping evolved, so validation warnings can be useful regression
+The SACM library accepts and semantically round-trips this long-lived demo
+project. It intentionally retains multilingual compatibility content accumulated
+while the application and its SACM mapping evolved. The current validator reports
+legacy description-multiplicity warnings; those are useful migration regression
 signals rather than evidence that the project failed to load.
+
+This directory is the accepted baseline for every Kitchen Blender scenario.
+Scenario tests assert that their `arguments/main.sacm` bytes remain identical to
+this file, so proposed work cannot leak into the SACM source of truth.

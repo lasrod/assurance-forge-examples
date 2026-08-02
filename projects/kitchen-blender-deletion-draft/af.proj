@@ -2,10 +2,10 @@
   "format": "assurance-forge-project",
   "formatVersion": "0.1.0",
   "project": {
-    "id": "example-kitchen-blender",
-    "name": "Kitchen Blender",
-    "description": "Demonstration safety case for a domestic kitchen blender.",
-    "createdUtc": "2026-07-29T00:00:00Z",
+    "id": "example-kitchen-blender-deletion-draft",
+    "name": "Kitchen Blender (proposed deletion)",
+    "description": "Kitchen Blender baseline carrying a synthetic element-deletion draft.",
+    "createdUtc": "2026-08-02T00:00:00Z",
     "modifiedUtc": "2026-08-02T00:00:00Z"
   },
   "tool": {
@@ -14,7 +14,7 @@
   },
   "files": [
     {
-      "id": "example-kitchen-blender-argument",
+      "id": "example-kitchen-blender-deletion-draft-argument",
       "path": "arguments/main.sacm",
       "role": "sacm.argument",
       "state": "clean",
@@ -28,7 +28,7 @@
       }
     },
     {
-      "id": "example-kitchen-blender-reviews",
+      "id": "example-kitchen-blender-deletion-draft-reviews",
       "path": "reviews/review-items.af.json",
       "role": "af.reviewItems",
       "state": "clean",
