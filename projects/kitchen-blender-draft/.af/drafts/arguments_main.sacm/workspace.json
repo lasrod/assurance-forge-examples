@@ -2,7 +2,7 @@
   "schema": "assurance-forge.draft-workspace.v2",
   "id": "example-kitchen-blender-active-draft",
   "argument_file": "",
-  "base_model_hash": "sha256:8629f89cd77d0163bef89d4ab7b8ad32366fde048d40c604b1330446582ebbfe",
+  "base_model_hash": "sha256:7769ace05a5573559c8d57b77cf3a16dfcb12c68d5f4032a88319c4ca8cc270c",
   "working_revision": 6,
   "next_sequence": 4,
   "state": "active",
