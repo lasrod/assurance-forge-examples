@@ -2,7 +2,7 @@
   "schema": "assurance-forge.draft-workspace.v2",
   "id": "example-kitchen-blender-deletion-draft",
   "argument_file": "",
-  "base_model_hash": "sha256:8629f89cd77d0163bef89d4ab7b8ad32366fde048d40c604b1330446582ebbfe",
+  "base_model_hash": "sha256:c3020c1917e29a28de0ca6d520537fac75263ce8d80cd5a12c22ca1d619bffc2",
   "working_revision": 2,
   "next_sequence": 2,
   "state": "active",
